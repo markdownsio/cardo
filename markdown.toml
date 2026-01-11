@@ -1,0 +1,8 @@
+[package]
+name = "cardo"
+version = "0.1.0"
+description = "A collection of Markdown documentation files"
+
+[dependencies]
+
+3body-documentation = { git = "github:rustq/3body-lang/README.md", branch = "main" }

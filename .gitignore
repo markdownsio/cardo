@@ -1,0 +1,7 @@
+/target
+/Cargo.lock
+/markdowns
+*.swp
+*.swo
+*~
+.DS_Store
