@@ -5,4 +5,4 @@ description = "A collection of Markdown documentation files"
 
 [dependencies]
 
-3body-documentation = { git = "github:rustq/3body-lang/README.md", branch = "main" }
+canvas-design = { git = "github:anthropics/skills/skills/canvas-design/SKILL.md", branch = "main" }

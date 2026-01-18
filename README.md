@@ -8,6 +8,11 @@ A CLI tool for managing Markdown file dependencies, inspired by Cargo.
 cargo build --release
 ```
 
+## Quick Start
+
+```
+>> following the SKILL to create a canvas about this cardo tool
+```
 
 ## Usage
 
@@ -41,33 +46,6 @@ This downloads all dependencies to the `markdowns/` directory.
 
 See `markdown.toml.example` for examples.
 
-### Simple format
-
-```toml
-[dependencies]
-doc = "github:owner/repo/path/to/file.md"
-```
-
-### Full format with version
-
-```toml
-[dependencies]
-doc = { git = "github:owner/repo/path/to/file.md", branch = "main" }
-doc = { git = "github:owner/repo/path/to/file.md", tag = "v1.0.0" }
-doc = { git = "github:owner/repo/path/to/file.md", rev = "abc123" }
-```
-
-### Direct URL
-
-```toml
-[dependencies]
-doc = "https://raw.githubusercontent.com/owner/repo/main/file.md"
-```
-
-## Environment Variables
-
-- `GITHUB_TOKEN`: Optional GitHub token for accessing private repositories or increasing rate limits
-
 ## License
 
-MIT OR Apache-2.0
+MIT
